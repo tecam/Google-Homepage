@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* styling for the middle of the page  */
+  img {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 180px;
+  }
+  
+  .nav {
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+   .clearfix {
+    overflow: auto;
+    clear: both;
+  } 
+  
+  .searchBar {
+     position: fix;
+     top: 10px;
+      display: flex;
+      z-index: 3;
+      min-height: 44px;
+      background: #fff;
+      border: none;
+      box-shadow: none;
+      border-radius: 24px;
+      margin: 0 auto;
+      width: 639px;
+     padding-left: 20px;
+  }
+  
+   .clearfix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  .navbar {
+    float: right;
+    line-height: normal;
+    align-items: center;
+  }
+  
+  /* nav bar for gmail and images  */
+  .navbar a {
+    margin: 10px;
+    margin-top: 30px;
+    text-decoration: none; 
+    color:#202124;
+  }
+  .navbar button{
+    margin: 10px;
+    padding: 6px
+  }
+  .navbar-left {
+    float: left;
+    line-height: normal;
+    padding: 12px 20px;
+  }
+  
+  /* nav bar for about and store  */
+  .navbar-left a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: #202124;
+    padding: 12px 20px
+  }
+  .signin {
+    background-color: #4285F4;
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 15px;
+    float: right;
+  }
+  
+  /* menu button in nav bar and magnifying glass in search bar  */
+  .material-symbols-outlined {
+    float: right;
+    flex-grow: 1;
+  }
+  
+  
+  
+  /* footer content */
+  .footing {
+    background-color: #f8f9fa;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  
+  #google {
+    width: 30%; 
+  }
+  
+  /* search bar  */
+  .searchIcons {
+    border: 2px #f8f9fa solid;
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  /* magnifying glass in search bar */
+  .searchScope {
+    margin: 10px;
+  }
+  
+  .searchBar {
+    outline: none;
+  }
+  
+  
+  .buttons {
+    margin-top: 5px;
+    border: #f8f9fa;
+  }
+  
+  /* buttons for Google search and I'm feeling lucky  */
+  .buttons button {
+  background-color:#f8f9fa;
+  margin: 0px 10px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  }
+  
+  .footer1 {
+   float: left;
+    padding: 12px 20px;
+  }
+  /* footer for advertising, business & how search works  */
+  .footer1 a{
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #70757a;;
+  }
+  
+  .footer2 {
+    float: right;
+    padding: 12px 20px;
+  }
+  /* footer for privacy and terms  */
+  .footer2 a{
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #70757a;;
+  }
+  
